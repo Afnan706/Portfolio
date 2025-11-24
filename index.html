@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afnan Azad | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#home">Afnan Azad</a>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="toggle">🌙</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero container">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="accent">Afnan Azad</span>.</h1>
+      <p>
+        Computer Science student at Memorial University.  
+        Interested in software development, robotics, and data-driven systems.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+      <div class="socials">
+        <a href="mailto:aiazad@mun.ca">Email</a>
+        <a href="https://github.com/Afnan706" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/afnan-azad-a5aa39210/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <!-- Optional image -->
+      <!-- <img src="assets/profile.jpg" alt="Afnan Azad" /> -->
+      <div class="hero-stats">
+        <div>
+          <h3>2+</h3>
+          <p>Years Work Experience</p>
+        </div>
+        <div>
+          <h3>2</h3>
+          <p>Course Projects</p>
+        </div>
+        <div>
+          <h3>CS</h3>
+          <p>Major @ MUN</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+    <h2>About</h2>
+    <p>
+      I’m a Computer Science student at Memorial University of Newfoundland.  
+      I enjoy building software that solves real problems, especially in robotics and data projects.
+      My background in customer-facing technical roles has also strengthened my communication and teamwork skills.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section container">
+    <h2>Skills</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Languages</h3>
+        <p>Python, Java, C/C++, JavaScript, SQL, HTML/CSS</p>
+      </div>
+      <div class="card">
+        <h3>Tools & Tech</h3>
+        <p>ROS 2, Git/GitHub, AWS basics, pandas, NumPy, Matplotlib</p>
+      </div>
+      <div class="card">
+        <h3>Strengths</h3>
+        <p>Problem-solving, communication, teamwork, fast learner</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section container">
+    <h2>Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Assistant Manager — Cineplex</h3>
+        <span class="muted">Dec 2022 – Apr 2025 | St. John’s, NL</span>
+        <ul>
+          <li>Managed tills, deposits, inventory orders, and daily reporting.</li>
+          <li>Supported store operations and helped resolve issues quickly.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Technical Support Specialist — FoundEver</h3>
+        <span class="muted">Jan 2023 – Apr 2025 | St. John’s, NL</span>
+        <ul>
+          <li>Supported 25+ customers daily with upgrades, network issues, and accounts.</li>
+          <li>Worked with departments and retailers to solve customer concerns efficiently.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container">
+    <h2>Projects</h2>
+
+    <div class="grid-2">
+      <div class="card project">
+        <h3>Robotic Manipulator Arm (ROS-Based 5-DOF Control System)</h3>
+        <p class="muted">COMP 3766 – Intro to Robotic Manipulation</p>
+        <ul>
+          <li>Designed a 5-DOF robotic arm using Python and ROS 2.</li>
+          <li>Implemented forward/inverse kinematics and integrated ROS simulation.</li>
+          <li>Built URDF models and controllers for movement visualization.</li>
+        </ul>
+        <div class="project-links">
+          <a href="#" target="_blank">GitHub Repo</a>
+          <!-- Add demo later if you want -->
+        </div>
+      </div>
+
+      <div class="card project">
+        <h3>DataPrep360 – Weather Data Cleaning & Regression Pipeline</h3>
+        <p class="muted">COMP 3400 – Data Preparation Techniques</p>
+        <ul>
+          <li>Cleaned precipitation/weather datasets with pandas & NumPy.</li>
+          <li>Performed feature engineering, outlier removal, and selection.</li>
+          <li>Built and evaluated regression model using RMSE/MAE.</li>
+        </ul>
+        <div class="project-links">
+          <a href="#" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <p>If you want to reach out, feel free to email me or connect on LinkedIn.</p>
+
+    <div class="contact-card card">
+      <p><strong>Email:</strong> <a href="mailto:aiazad@mun.ca">aiazad@mun.ca</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/Afnan706" target="_blank">github.com/Afnan706</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/afnan-azad-a5aa39210/" target="_blank">afnan-azad</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Afnan Azad. Built with HTML/CSS/JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
